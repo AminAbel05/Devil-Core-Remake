@@ -1,0 +1,116 @@
+[21:45:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[21:45:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[21:45:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:45:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[21:45:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.5.0-SNAPSHOT), ViaVersion (5.1.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[21:45:25] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:45:27] [ServerMain/INFO]: Loaded 1290 recipes
+[21:45:27] [ServerMain/INFO]: Loaded 1399 advancements
+[21:45:27] [Server thread/INFO]: Starting minecraft server version 1.21
+[21:45:27] [Server thread/INFO]: Loading properties
+[21:45:27] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[21:45:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:45:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:45:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:45:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[21:45:29] [Server thread/INFO]: Default game type: SURVIVAL
+[21:45:29] [Server thread/INFO]: Generating keypair
+[21:45:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:45:29] [Server thread/INFO]: Using epoll channel type
+[21:45:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:45:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[21:45:30] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:45:32] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[21:45:32] [Server thread/INFO]: [floodgate] Took 2,009ms to boot Floodgate
+[21:45:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[21:45:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[21:45:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:45:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:45:34] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.5.0-SNAPSHOT
+[21:45:36] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[21:45:36] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[21:45:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:45:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:45:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:45:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:45:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:45:36] [Server thread/INFO]: Preparing level "world"
+[21:45:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:45:37] [Server thread/INFO]: Time elapsed: 1092 ms
+[21:45:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:45:37] [Server thread/INFO]: Time elapsed: 276 ms
+[21:45:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:45:38] [Server thread/INFO]: Time elapsed: 100 ms
+[21:45:38] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[21:45:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[21:45:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[21:45:39] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.5.0-SNAPSHOT
+[21:45:39] [Server thread/INFO]: [spark] Starting background profiler...
+[21:45:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:40] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.5.0-b717 (git-master-b962918)
+[21:45:40] [Server thread/INFO]: [Geyser-Spigot] 
+[21:45:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[21:45:44] [pool-14-thread-1/WARN]: [floodgate] 
+**********************************
+* You specified an empty prefix in your Floodgate config for Bedrock players!
+* Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[21:45:47] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1086
+[21:45:47] [Server thread/INFO]: [Geyser-Spigot] Done (7.858s)! Run /geyser help for help!
+[21:45:48] [Server thread/INFO]: Done preparing level "world" (11.964s)
+[21:45:48] [Server thread/INFO]: Running delayed init tasks
+[21:45:48] [Server thread/INFO]: Done (27.878s)! For help, type "help"
+[21:45:48] [Server thread/INFO]: Timings Reset
+[21:45:48] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:47:37] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username ColdestThrone20
+[21:47:37] [localSession-7-2/INFO]: [Geyser-Spigot] ColdestThrone20 (logged in as: ColdestThrone20) has connected to the Java server
+[21:47:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as ColdestThrone20 joined (UUID: 00000000-0000-0000-0009-01fc427adbd4)
+[21:47:38] [Server thread/INFO]: ColdestThrone20 (formerly known as .ColdestThrone20) joined the game
+[21:47:39] [Server thread/INFO]: ColdestThrone20[/127.0.0.1:0] logged in with entity id 85 at ([world]-0.032980338, 70.0, -16.370558)
+[21:49:03] [User Authenticator #0/INFO]: UUID of player Helion08 is 1f7b03cd-ed62-3ed1-8854-a2a3a7ad7a0d
+[21:49:04] [Server thread/INFO]: Helion08 joined the game
+[21:49:04] [Server thread/INFO]: Helion08[/127.214.129.168:48059] logged in with entity id 317 at ([world]8.5, 71.0, -7.5)
+[21:49:23] [Server thread/INFO]: ColdestThrone20 was doomed to fall by Helion08
+[21:51:41] [Server thread/INFO]: Helion08 was slain by ColdestThrone20
+[21:52:30] [Server thread/INFO]: Made Helion08 a server operator
+[21:52:43] [Server thread/INFO]: Made ColdestThrone20 a server operator
+[21:52:56] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode c
+[21:53:06] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode 1
+[21:53:41] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode 1
+[21:53:57] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode
+[21:54:10] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode 1
+[21:54:37] [Server thread/INFO]: Unknown game mode: 1
+gamemode 1 ColdestThrone20<--[HERE]
+[21:54:55] [Server thread/INFO]: ColdestThrone20 issued server command: /time set day
+[21:54:55] [Server thread/INFO]: [ColdestThrone20: Set the time to 1000]
+[21:55:13] [Server thread/INFO]: Helion08 issued server command: /gamemode creative
+[21:55:13] [Server thread/INFO]: [Helion08: Set own game mode to Creative Mode]
+[21:55:54] [Server thread/INFO]: ColdestThrone20 issued server command: /gamemode creative
+[21:55:54] [Server thread/INFO]: [ColdestThrone20: Set own game mode to Creative Mode]
+[21:56:40] [Server thread/INFO]: ColdestThrone20 issued server command: /help
+[21:56:48] [Async Chat Thread - #0/INFO]: [Not Secure] <ColdestThrone20> minecraft:
+[21:57:57] [localSession-7-2/INFO]: [Geyser-Spigot] ColdestThrone20 has disconnected from the Java server because of Bedrock client disconnected
+[21:57:57] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as ColdestThrone20 disconnected
+[21:57:57] [Server thread/INFO]: ColdestThrone20 lost connection: Disconnected
+[21:57:58] [Server thread/INFO]: ColdestThrone20 left the game
+[21:58:16] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username ColdestThrone20
+[21:58:16] [localSession-7-3/INFO]: [Geyser-Spigot] ColdestThrone20 (logged in as: ColdestThrone20) has connected to the Java server
+[21:58:16] [Server thread/INFO]: [floodgate] Floodgate player logged in as ColdestThrone20 joined (UUID: 00000000-0000-0000-0009-01fc427adbd4)
+[21:58:16] [Server thread/INFO]: ColdestThrone20 joined the game
+[21:58:16] [Server thread/INFO]: ColdestThrone20[/127.0.0.1:0] logged in with entity id 1138 at ([world]-12.621528, 71.0, -35.512707)
+[21:59:00] [localSession-7-3/INFO]: [Geyser-Spigot] ColdestThrone20 has disconnected from the Java server because of Bedrock client disconnected
+[21:59:00] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as ColdestThrone20 disconnected
+[21:59:00] [Server thread/INFO]: ColdestThrone20 lost connection: Disconnected
+[21:59:00] [Server thread/INFO]: ColdestThrone20 left the game
+[21:59:14] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username ColdestThrone20
+[21:59:14] [localSession-7-4/INFO]: [Geyser-Spigot] ColdestThrone20 (logged in as: ColdestThrone20) has connected to the Java server
+[21:59:14] [Server thread/INFO]: [floodgate] Floodgate player logged in as ColdestThrone20 joined (UUID: 00000000-0000-0000-0009-01fc427adbd4)
+[21:59:14] [Server thread/INFO]: ColdestThrone20 joined the game
+[21:59:14] [Server thread/INFO]: ColdestThrone20[/127.0.0.1:0] logged in with entity id 1230 at ([world]-12.621528, 71.0, -35.512707)
+[22:05:27] [Server thread/INFO]: ColdestThrone20 has made the advancement [Ol' Betsy]
+[22:05:53] [Server thread/INFO]: Helion08 has made the advancement [Monster Hunter]
+[22:09:38] [Server thread/INFO]: ColdestThrone20 issued server command: /tp helion08 coldestthrone20
+[22:09:38] [Server thread/INFO]: [ColdestThrone20: Teleported Helion08 to ColdestThrone20]
